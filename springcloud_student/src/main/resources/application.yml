@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Web-student
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:12306/eureka
+
+
+

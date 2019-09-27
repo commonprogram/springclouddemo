@@ -1,0 +1,15 @@
+server:
+  port: 12306
+
+#给当前的工程起一个标识
+spring:
+  application:
+    name: eureka-server
+
+
+#配置Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:12306/eureka
+    fetch-registry: false
