@@ -13,6 +13,7 @@ public class StuController {
     public String show(){
         System.out.println("生生不息，源源不断");
         System.out.println("我的第一个分支");
+        System.out.println("mybranch");
         return "学生列表";
     }
 }
